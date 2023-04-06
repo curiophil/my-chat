@@ -46,7 +46,7 @@ export default {
       url: "https://api.openai.com/v1/chat/completions",
       method: 'post',
       headers: {
-        authorization: 'Bearer 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'
+        authorization: 'Bearer sk-***'
       },
       data: {
         "model": "gpt-3.5-turbo",
@@ -83,7 +83,7 @@ export default {
         }),
         headers: {
           "Content-Type": "application/json",
-          authorization: 'Bearer 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'
+          authorization: 'Bearer sk-***'
         }
       })
       //获取UTF8的解码
